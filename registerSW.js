@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/ai-peptide-portfolio/sw.js', { scope: '/ai-peptide-portfolio/' })})}
